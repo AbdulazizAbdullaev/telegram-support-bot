@@ -17,6 +17,6 @@ if TELEGRAM_SUPPORT_CHAT_ID is None or not str(TELEGRAM_SUPPORT_CHAT_ID).lstrip(
 TELEGRAM_SUPPORT_CHAT_ID = int(TELEGRAM_SUPPORT_CHAT_ID)
 
 
-WELCOME_MESSAGE = os.getenv("WELCOME_MESSAGE", "Assalomu alaykum! Mikrokreditbank shiori bo'yicha o'tqizilayotgan so'rovnomada qatnashing va bank rijovi uchun o'z xissangizni qo'shing !")
+WELCOME_MESSAGE = os.getenv("WELCOME_MESSAGE", "Assalomu alaykum! Mikrokreditbank shiori bo'yicha o'tqizilayotgan so'rovnomada qatnashing va bank rijovi uchun o'z xissangizni qo'shing ! \n ----------------- \n Здравствуйте ! Примите участие в опросе под девизом Микрокредитбанка и добавьте свой вклад в богатство банка!")
 REPLY_TO_THIS_MESSAGE = os.getenv("REPLY_TO_THIS_MESSAGE", "Javob berish")
 WRONG_REPLY = os.getenv("WRONG_REPLY", "Javob berishda xatolik")
